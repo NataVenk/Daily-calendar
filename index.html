@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     
     <title>Work Day Scheduler class="fas fa-save" i ::before ></title>
   </head>
@@ -32,14 +32,76 @@
 
 
       <p id="currentDay" class="lead"></p>
+
+      <div class="save-message">
+        <p id="message"> </p>
+      </div>
+
     </header>
-        <div class = "row"> 
+       
           <div class="container">
+            <div class="row" >
+            
+              <div class="hour col-2" > 9 am </div> 
+              <textarea  id="9" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
             <div class="row">
             
-              <input type="text" class=hour />
-              <input type="text" class= description id="textarea" >
-              <input type="text" class= saveBtn id="myInput" >
+              <div class="hour col-2" > 10 am </div> 
+              <textarea  id="10" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+            
+              <div class="hour col-2" > 11 am </div> 
+              <textarea  id="11" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+            
+              <div class="hour col-2" > 12 pm </div> 
+              <textarea  id="12" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            
+            <div class="row">
+            
+              <div class="hour col-2"> 1 pm </div> 
+              <textarea  id="13" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+            
+              <div class="hour col-2"> 2 pm </div> 
+              <textarea id="14" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+            
+              <div class="hour col-2"> 3 pm </div> 
+              <textarea  id="15" class= "description col-8 past"  ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+             
+              <div class="hour col-2"> 4 pm </div> 
+              <textarea  id="16" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
+
+            </div>
+            <div class="row">
+            
+              <div class="hour col-2"> 5 pm </div> 
+              <textarea  id="17" class= "description col-8 past" ></textarea>
+              <button  class= "saveBtn  col-2" >Save</button>
 
             </div>
           </div>    
@@ -52,8 +114,7 @@
       
 
 
-      <!-- Timeblocks go here -->
-    </div>
+   
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

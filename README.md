@@ -1,20 +1,29 @@
 # Daily-calendar
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+Daily planner 
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+## Goal
+
+Create a daily pplanner to manage time of the day and tasks effectively
+
+## Acceptance Criteria
+
+When the planner is open, the current date/day is displayed on top.
+Time blocks for each standard business hour is displayed below. 
+Each hour is color coded according to past, present and future. Each block has a space to enter the task and a save button.
+When Save button is clicked - the tasks are saved in local storage and presented when I re-open the planner
+
+## Mock-up
+
+
+
+
+## Credits
+
+class instructor
+Sean New
+
+## License
+
+MIT license
 
