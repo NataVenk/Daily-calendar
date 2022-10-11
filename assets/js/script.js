@@ -1,30 +1,38 @@
 // console.log("here i am")
 
-let currentHour = parseInt(moment().format('H'));
-console.log(currentHour)
+let currentHour = parseInt(moment().format('H'))-5;
 var descTime = document.getElementsByClassName("description");
-console.log(descTime)
 
 
     
  Array.from(descTime).forEach(description => {
-  let
-    planHour  =  description.id, 
-        pHour;
+  let pHour  =  parseInt(description.id)
+  
+    console.log(currentHour)
 
-  if (planHour) {
-    pHour = parseInt(planHour);}
-    console.log(pHour)
+    if (pHour){
 
-    // if (pHour) {
-    if (currentHour === pHour) {
-        $("textarea").addClass("present")};
-    if (currentHour > pHour) {
-        $("textarea").addClass("future")};
+        if (parseInt(pHour) == parseInt(currentHour)) {
+            $("textarea#".concat(pHour)).addClass("present");
+           
+        }
+        if (parseInt(pHour) > parseInt(currentHour)) {
+            $("textarea#".concat(pHour)).addClass("future");
+        }
+    }
+    
+    
+},)
+   
+// function currentColor(){
+//     $("description").addClass("present");
+  
+// }
+// function futureColor(){
+//     $("description").addClass("future");
+// }
 
-        // }
 
-})
 
 //    {
 //     if (currentHour === planHour) {
