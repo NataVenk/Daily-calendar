@@ -17,7 +17,12 @@ When Save button is clicked - the tasks are saved in local storage and presented
 
 image of the working page
 
-   <link rel="images of website"  href = "./assets/images/daily-calendar.png" />
+   <img scr = "./assets/images/daily-calendar.png" />
+   
+   
+   
+  ![My Image](./assets/images/daily-calendar.png)
+  
 
 
 
