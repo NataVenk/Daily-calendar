@@ -15,6 +15,11 @@ When Save button is clicked - the tasks are saved in local storage and presented
 
 ## Mock-up
 
+image of the working page
+
+   <link rel="images of website"  href = "./assets/images/daily-calendar.png" />
+
+
 
 
 
