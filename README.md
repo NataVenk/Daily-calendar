@@ -19,6 +19,10 @@ image of the working page
 
    <img scr = "./assets/images/daily-calendar.png" />
    
+   
+   
+  ![My Image](./assets/images/daily-calendar.png)
+  
 
 
 
