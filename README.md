@@ -19,6 +19,13 @@ image of the working page
 
    <img scr = "./assets/images/daily-calendar.png" />
    
+<<<<<<< HEAD
+=======
+   
+   
+  ![My Image](./assets/images/daily-calendar.png)
+  
+>>>>>>> 5f9434240aa38ca76ee1eeeb7049986ad1d4c614
 
 
 
