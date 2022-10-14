@@ -1,6 +1,6 @@
-// console.log("here i am")
 
-let currentHour = parseInt(moment().format('H'))-5;
+
+let currentHour = parseInt(moment().format('H'));
 var descTime = document.getElementsByClassName("description");
 
 
@@ -24,25 +24,7 @@ var descTime = document.getElementsByClassName("description");
     
 },)
    
-// function currentColor(){
-//     $("description").addClass("present");
-  
-// }
-// function futureColor(){
-//     $("description").addClass("future");
-// }
 
-
-
-//    {
-//     if (currentHour === planHour) {
-//       $("textarea").addClass("present")};
-//     } else if ((currentHour < planHour) ) {
-//       setColor(row, "lightgrey");
-//     } else  {
-//       setColor(row, "green");
-  
-//   }
 
 
 
@@ -75,16 +57,7 @@ function loadTasks(){
 
  }
 }
-// function colorCode(){
-//     for(let i=9; i<=17; i++){
-//         if (i = currentTime); {
-//             $("textarea").addClass("present")};
-//         if (i > currentTime); {
-            // $("textarea").addClass("future")};
 
-//         }
-
-    // }
 $("#currentDay").text(currentTime.format(" D MMM YYYY"))
 $(".saveBtn").on("click", saveTask)
 
