@@ -23,6 +23,10 @@ image of the working page
    
   ![My Image](./assets/images/daily-calendar.png)
   
+   
+   
+  ![My Image](./assets/images/daily-calendar.png)
+  
 
 
 
