@@ -8,7 +8,7 @@ var descTime = document.getElementsByClassName("description");
  Array.from(descTime).forEach(description => {
   let pHour  =  parseInt(description.id)
   
-    // console.log(currentHour)
+
 
     if (pHour){
 
@@ -29,15 +29,14 @@ var descTime = document.getElementsByClassName("description");
 
 
 var currentTime = moment();
-// console.log(currentTime)
+
 
 function saveTask (event){
-    // console.log("click")
-    // console.log(event)
+
     const text=event.target.previousElementSibling.value
     const hour=event.target.previousElementSibling.id
     const tasks=JSON.parse(localStorage.getItem("planner")) || {}
-    // console.log (tasks)
+   
     tasks[hour]=text
     localStorage.setItem("planner", JSON.stringify(tasks))
     $("#message").text("Your task has been saved!")
@@ -52,7 +51,7 @@ function saveTask (event){
 function loadTasks(){
  const tasks = JSON.parse(localStorage.getItem("planner")) || {}
  for(let i = 9; i<=17; i++){
-    // console.log($("#"+i),tasks[i])
+    
     $("#"+i).val(tasks[i] || "")
 
  }
